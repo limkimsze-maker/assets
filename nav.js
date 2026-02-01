@@ -14,7 +14,7 @@
     wrap.id = "universal-nav";
     wrap.innerHTML = `
       <style>
-        .nav-top{
+     .nav-top{
   position:fixed;
   left:50%;
   bottom: max(14px, env(safe-area-inset-bottom));
@@ -67,4 +67,5 @@
     mount();
   }
 })();
+
 
